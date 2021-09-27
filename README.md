@@ -29,3 +29,4 @@
         print("The Value of Slider is : \(slider.value)")
     }
 ```
+<img width="834" alt="UIKIt-Slider" src="https://user-images.githubusercontent.com/70090469/134944158-381736ed-3f14-4610-8bde-c56b00031e26.png">
