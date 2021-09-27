@@ -23,4 +23,4 @@
 
 <img width="885" alt="alert-uikit" src="https://user-images.githubusercontent.com/70090469/134934387-306749b5-ff95-4068-af3e-a24a5459c895.png">
 
-## UIKit-Slider & Label
+## UIKit-Slider
