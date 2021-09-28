@@ -65,6 +65,7 @@
  
 
 ```
+<img width="891" alt="UIKit-Slider Alert" src="https://user-images.githubusercontent.com/70090469/135095906-090bc402-464b-4068-b4e1-d93a191a5d36.png">
 
 
 
