@@ -67,6 +67,16 @@
 ```
 <img width="891" alt="UIKit-Slider Alert" src="https://user-images.githubusercontent.com/70090469/135095906-090bc402-464b-4068-b4e1-d93a191a5d36.png">
 
-
-
+## UIKit-Label
+```
+@IBOutlet weak var showLabel: UILabel!
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        showLabel.text = "Hello World"
+    }
+```
+<img width="879" alt="UIKit-Label" src="https://user-images.githubusercontent.com/70090469/135102009-9c4fc4f9-f484-4f2b-9a7d-ba59d67246a4.png">
 
