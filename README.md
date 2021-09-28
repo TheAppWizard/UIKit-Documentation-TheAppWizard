@@ -30,3 +30,42 @@
     }
 ```
 <img width="834" alt="UIKIt-Slider" src="https://user-images.githubusercontent.com/70090469/134944158-381736ed-3f14-4610-8bde-c56b00031e26.png">
+
+## UIKit-Slider with Alert
+```
+ //Slider Current Value Integer
+ var currentValue: Int = 0
+ 
+ @IBAction func showAlert(){
+        let message = "The value of the Slider is : \(currentValue)"
+        
+        
+        let alert = UIAlertController(
+            title: "Slider Value",
+            message: message,
+            preferredStyle: .alert
+        
+        )
+        
+        let action = UIAlertAction(
+            title: "OK",
+            style: .default,
+            handler: nil
+        )
+        
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+        
+    }
+    
+    
+    @IBAction func sliderMoved(_ slider : UISlider){
+        currentValue = lroundf(slider.value)
+    }
+ 
+
+```
+
+
+
+
