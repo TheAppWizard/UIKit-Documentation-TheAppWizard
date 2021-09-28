@@ -80,3 +80,14 @@
 ```
 <img width="879" alt="UIKit-Label" src="https://user-images.githubusercontent.com/70090469/135102009-9c4fc4f9-f484-4f2b-9a7d-ba59d67246a4.png">
 
+## UIKit-Slider with Label
+```
+  @IBAction func sliderMoved(_ slider : UISlider){
+        currentValue = lroundf(slider.value)
+        showLabel.text = "\(slider.value)"
+    
+    }
+    
+```
+<img width="865" alt="UIKit-Slider Label" src="https://user-images.githubusercontent.com/70090469/135104901-4696d4b3-1b7d-45a6-a978-ab28abb52899.png">
+
